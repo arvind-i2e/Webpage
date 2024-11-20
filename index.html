@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+
+    <!-- Bootstrap CSS (added) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav-container">
+            <a href="#" class="logo">Logo</a>
+            <div class="nav-menu">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#" class="nav-link">Signed Deals</a>
+                <a href="#" class="nav-link active">Deal Information</a>
+                <a href="#" class="nav-link">Dashboards</a>
+                <a href="#" class="nav-link">Contacts</a>
+                <a href="#" class="nav-link">All News</a>
+                <a href="#" class="nav-link">Marketplace</a>
+                <a href="#" class="nav-link">Admin</a>
+                <button class="submit-button">
+                    Submit Your Ideas!
+                </button>
+                 <div class="user-avatar">
+                  <img src="Img.png" alt="User Avatar">
+             </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1 class="page-title">Deal Information</h1>
+
+        <div class="tabs">
+            <a href="#" class="tab">WRDM Funding Sources</a>
+            <a href="#" class="tab">Deal Process</a>
+            <a href="#" class="tab">Governance</a>
+            <a href="#" class="tab">Areas of Interest</a>
+            <a href="#" class="tab active">What to do if...</a>
+        </div>
+
+        <p class="description">Select the topic below to see what you should do in each scenario</p>
+
+        <!-- Bootstrap Accordion (Updated Structure) -->
+        <div class="accordion" id="accordionExample">
+
+            <!-- Accordion Item 1 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        ...You are at a meeting and find a potential WRD external opportunity of interest
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis possimus accusantium magni explicabo non eos numquam itaque tempore dignissimos nisi aut necessitatibus ducimus rem saepe, dolore quos praesentium labore at quasi? Voluptatibus ex odit tempore libero nihil? Corporis quod iure atque neque. Est ipsum autem quo eum provident soluta ipsam.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 2 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        ...You want to know WRD's partnering areas of interest
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis possimus accusantium magni explicabo non eos numquam itaque tempore dignissimos nisi aut necessitatibus ducimus rem saepe, dolore quos praesentium labore at quasi? Voluptatibus ex odit tempore libero nihil? Corporis quod iure atque neque. Est ipsum autem quo eum provident soluta ipsam.
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accordion Item 3 -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        ...you get approached by a non employee with a potential WRD external opportunity of interest
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis possimus accusantium magni explicabo non eos numquam itaque tempore dignissimos nisi aut necessitatibus ducimus rem saepe, dolore quos praesentium labore at quasi? Voluptatibus ex odit tempore libero nihil? Corporis quod iure atque neque. Est ipsum autem quo eum provident soluta ipsam.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js (added) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+
+    <script>
+        // Optional: Custom accordion script is not needed as Bootstrap handles it
+    </script>
+
+    <!-- Footer -->
+    <footer>&copy;2024 i2e Inc. All rights Reserved</footer>
+</body>
+
+</html>
